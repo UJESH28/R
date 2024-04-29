@@ -1,0 +1,5 @@
+x <- c("A", "B", "C", "D", "E")
+y <- c(10, 15, 8, 12, 20)
+plot(y, type = "o", xlab = "Values", ylab = "Categories", main = "Dotplot")
+points(y, 1:length(y), pch = 19, col = "blue")
+text(y, 1:length(y), labels = x, pos = 4, col = 'red')
